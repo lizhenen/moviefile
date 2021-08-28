@@ -1,0 +1,216 @@
+body {
+    /*padding-top: 10px;*/
+    padding-bottom: 40px;
+}
+
+.data_list {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    background-color: #fdfdfd;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.data_list_empty {
+    border: 1px solid #e5e5e5;
+    padding: 50px;
+    background-color: #fdfdfd;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+.data_list .data_list_title {
+    font-size: 15px;
+    font-weight: bold;
+
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+}
+
+.data_list .data_list_title img {
+    margin-top: 1px;
+    vertical-align: top;
+}
+
+.data_list .datas {
+    padding: 5px;
+}
+
+.data_list .imageDatas {
+    /*height: 1555px;*/
+    height: 550px;
+}
+.data_list .movieTypeDatas {
+    height: 1300px;
+}
+
+.data_list .rImageDatas {
+    height: 520px;
+}
+
+.data_list .lImageDatas {
+    height: 1300px;
+}
+
+.data_list .datas ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.data_list .datas ul li {
+    margin-top: 10px;
+}
+
+.data_list .datas .imageUl {
+    margin-left: 20px;
+}
+
+.data_list .datas .imageUl li {
+    float: left;
+    margin-right: 25px;
+}
+
+.data_list .datas .imageUl .imageLi {
+    height: 250px;
+}
+
+.data_list .datas .imageUl .imageLi p {
+    overflow: hidden;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.data_list .data_list_title .datas {
+    padding: 5px;
+}
+
+.data_list .datas .indexMovie {
+    width: 140px;
+    height: 198px;
+}
+
+.data_list .film_title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.data_list .film_publishDate {
+    text-align: center;
+}
+
+.data_list .film_content {
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+ .film_last_and_next_page {
+    border-top: 1px dotted black;
+    padding: 10px 10px 10px 30px;
+}
+
+.each-text{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.each-text,.pic-title-b{background-repeat: no-repeat;background-image: linear-gradient(transparent,rgba(0,0,0,.5));color: #FFFFFF;}
+.each-text.active{ background: rgba(0,0,0,0.6); color: #FFFFFF;}
+a,button{color:black;text-decoration:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a:focus,a:hover,a:active{ text-decoration:none;}
+a:hover{ color: #FF9900;}
+
+.swiper-container{
+    width: 100%;
+    height: auto ;
+    margin:0 auto;
+    padding: 0 auto;
+}
+.swiper-button-next {
+    right: 20px;
+    left: auto;
+    color: white;
+}
+.swiper-button-prev {
+    left: 20px;
+    right: auto;
+    color: white;
+}
+
+.hdp_text{
+    position: absolute;
+    z-index: 20;
+    bottom: 100px;
+    left: 110px;
+    width: 350px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+.hdp_text .hdp_title{
+    font-size: 28px;
+    line-height: 1.5em;
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow: visible;
+}
+.hdp_text .hdp_status{
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: .8;
+    max-height: 102px;
+    overflow: hidden;
+}
+.hdp_text .hdp_time{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.hdinfo{position: absolute;top: 2%;z-index: 5;}
+.qb{background-color: rgba(255,92,138,0.85);}
+.img .hdinfo span{display: block;padding: 4px 5px;color: #fff;border-top-right-radius: 4px;border-bottom-right-radius: 4px;margin-bottom: 3px;}
+.rating{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 207, 0, 0.4);
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+}
+.text-muded{
+    min-height: 19px;
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: #999;
+}
+.text-overflow {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left !important;
+    padding-top:0px !important;
+}
+
+ul.line{
+    height: 30px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+ul.line li{height:30px;text-indent:20px; font-size:20px;font-weight: bolder; line-height:30px;list-style:none}
+
+.jidi{right: 0%;position: absolute;bottom: 24%;z-index: 5;}
+.jidi span{color: #fff; background-color: rgba(0,0,0,0.6); padding: 3px 5px; border-radius: 3px;}
