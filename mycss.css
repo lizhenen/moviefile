@@ -309,3 +309,59 @@ a{
     cursor: pointer;
 }
 a:hover{ color: cornflowerblue;}
+@media (min-width: 768px) {
+    .container {
+        width:750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width:970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width:1170px
+    }
+}
+
+.appicon{
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.btn-u-lg,.btn-u.btn-u-green,a.btn-u-lg {
+    background-color: #28caad;
+    color: white;
+    cursor: pointer ;
+
+}
+
+.btn-u-lg,a.btn-u-lg {
+    font-size: 18px;
+    padding: 8px 60px;
+    border-radius: 30px;
+    border: 1px solid transparent
+}
+.btn-u-sm,a.btn-u-sm {
+    padding: 3px 12px
+}
+
+.btn-u-lg,a.btn-u-lg {
+    font-size: 18px;
+    padding: 10px 25px
+}
+
+.btn-u-xs,a.btn-u-xs {
+    font-size: 12px;
+    padding: 2px 12px;
+    line-height: 18px
+}
